@@ -3,7 +3,7 @@
 
 - Technology: Mobile App Development
 
-- Descriptive multivariate data analysis was conducted on mobile apps data from the Apple Mobile App Store and Google Play Store. 10,000 Play Store apps and 7,200 Mobile App Store apps data sets from Kaggle were imported, cleaned, and analyzed. The profitability of Mobile Apps and Play Store apps were explored to identify which types of apps are likely to attract more users, this information is then used to inform app development within the company to reduce development risk.
+- Descriptive multivariate data analysis was conducted on mobile apps data from the Apple Mobile App Store and Google Play Store. 10,000 Play Store apps and 7,200 Mobile App Store apps data sets from Kaggle were imported, cleaned, and analyzed. The profitability of App Store and Google Play Store apps were explored to identify which types of apps are likely to attract more users, this information is then used to inform app development within the company to reduce development risk.
 
 - Two datasets were gathered and munged. The data was analyzed and descriptive statistics were generated. Mobile apps were identified with profiles that were successful on both Apple App Store and Google Play store markets to mitigate risk and overhead for company app development. The mean was calculated for the average number of installs by genre for App Store and Google Play Store mobile apps. The most common genres in the App Store market and Google Play Store market were visualized in frequency tables.
 
