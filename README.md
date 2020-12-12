@@ -7,14 +7,15 @@
 
 - Two datasets were gathered and munged. The data was analyzed and descriptive statistics were generated. Mobile apps were identified with profiles that were successful on both Apple App Store and Google Play store markets to mitigate risk and overhead for company app development. The mean was calculated for the average number of installs by genre for App Store and Google Play Store mobile apps. The most common genres in the App Store market and Google Play Store market were visualized in frequency tables.
 
-- 10,000 Play Store apps and 7,200 App Store apps datasets from Kaggle that include 13 features from the Play Store and 10 features from the App Store that describe the given app. A complete explanation can be found at the Kaggle [webpages](https://www.kaggle.com/lava18/google-play-store-apps, https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps?select=AppleStore.csv)
+- 10,000 Play Store apps and 7,200 App Store apps datasets from Kaggle that include 13 features from the Play Store and 10 features from the App Store that describe the given app. A complete explanation can be found at the Kaggle [webpage 1](https://www.kaggle.com/lava18/google-play-store-apps), [webpage 2](https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps?select=AppleStore.csv)
 
 ## Processing Instructions:
 - [Report Here](https://drive.google.com/file/d/17FJWXqMo7ZxWnvyrYR8xCvDBndVAOtYd/view?usp=sharing)
 - To improve reproducibility of the data analysis, a Jupyter Notebook file is included.
 
 ## Steps to Transformation:
-- [Data download](https://www.kaggle.com/lava18/google-play-store-apps, https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps?select=AppleStore.csv)
+- [Data download 1](https://www.kaggle.com/lava18/google-play-store-apps)
+- [Data download 2](https://www.kaggle.com/ramamet4/app-store-apple-data-set-10k-apps?select=AppleStore.csv)
 - Files “applestore.csv”, “googleplaystore.csv” were imported into Jupyter Notebook.
 - The Google Play Store apps data set has an error in one of its rows: a "CATEGORY" value is missing. Removed the row with the error.
 - Duplicate entries were removed using the criterion of “entries with number of reviews lower than entry with highest number of reviews”.
